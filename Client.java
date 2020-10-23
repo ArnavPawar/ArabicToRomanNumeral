@@ -1,0 +1,87 @@
+/**
+ * Client for Roman 
+ * 
+ * Arnav Pawar
+ * Due 12/17/18
+ */
+public class Client
+{
+    public static void main(String [] args){
+        Roman replace = new Roman();       
+        replace.getRoman();
+        replace.getArabic();     
+    }       
+}
+/*
+ CODE
+///////////////////////////////////////
+ RomanNumeral
+ I
+ V
+ X
+ C
+ D
+ M
+ IV
+ IX
+ XL
+ XC
+ CD
+ CM
+ DCIX
+ CCCC
+ LXXXX
+ XXXX
+ VIIII
+ IIII
+ XLXLX
+ CXLX
+ DLXXXIV
+//////////////////////////////////////// 
+ RomanToArabicNumeral
+ 1
+ 5
+ 10
+ 50
+ 100
+ 500
+ 1000
+ 4
+ 9
+ 40
+ 90
+ 400
+ 900
+ 900
+ 400
+ 90
+ 40
+ 9
+ 4
+ 110
+ 150
+ 584
+////////////////////////////////////////
+ AribicToRoman
+ I
+ V
+ X
+ C
+ D
+ M
+ IV
+ IX
+ XL
+ XC
+ CD
+ CM
+ CM
+ CD
+ XC
+ XL
+ IX
+ IV
+ CX
+ LC
+ DLXXXIV
+  */
