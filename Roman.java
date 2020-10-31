@@ -13,7 +13,7 @@ import java.io.BufferedReader;
  * The method getArabic and arabicNum will take the RomanToArabicNumeral.txt and chang the numbers back to Roman Numerals
  *
  * Arnav Pawar
- * Due 12/17/18
+ * 12/17/18
  */
 public class Roman
 {
